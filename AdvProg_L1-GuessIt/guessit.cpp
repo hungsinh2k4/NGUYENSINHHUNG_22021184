@@ -100,7 +100,7 @@ bool checkContinuePlaying(char isContinued) {
 char getPlayerOpinion() {
     // TODO: Ask the player about continue playing and return the player's choice
     char isContinued;
-    cout << "Do you want continue game ? (Y/N)";
+    cout << "Continue Playing ?(Y/N)"\n;
     cin >> isContinued;
     return isContinued;
 }
